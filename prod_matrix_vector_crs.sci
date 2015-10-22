@@ -1,3 +1,5 @@
+//CRS formatの疎行列に左から列ベクトルを掛ける
+
 function [result]=prod_matrix_vector_crs(AA, IA, JA, x)
     columns = length(IA); // resultの行数を取得
     result = zeros(columns, 1); // resultの大きさを定義

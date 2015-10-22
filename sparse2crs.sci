@@ -1,3 +1,5 @@
+//課題1　スパース行列をcrsへ変換(圧縮？)
+
 function [AA, IA, JA] = sparse2crs(A)
     AA = [];
     IA = [];
